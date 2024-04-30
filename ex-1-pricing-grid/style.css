@@ -1,1 +1,66 @@
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    90deg,
+    hsl(310, 100%, 70%),
+    hsl(220, 100%, 70%)
+  );
+}
+
+.cat,
+.dog,
+.fish {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px 20px 20px;
+  background-color: rgba(200, 200, 200, 0.4);
+  width: 12%;
+  gap: 20px;
+}
+
+.cat,
+.fish {
+  width: 15%;
+}
+
+.animal {
+  color: white;
+  text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.3);
+  font-size: 32px;
+}
+
+.description {
+  text-align: center;
+  font-size: 16px;
+}
+
+.advantage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.price {
+  font-size: 48px;
+}
+
+.comment {
+  text-align: center;
+  background-color: yellow;
+  width: 90%;
+  padding: 5% 0 5% 0;
+}
