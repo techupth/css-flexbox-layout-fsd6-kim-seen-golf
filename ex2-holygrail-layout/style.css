@@ -1,1 +1,48 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 8vh;
+  background-color: #008080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.main-container {
+  height: 84vh;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin: 1px;
+}
+
+.box {
+  height: 100%;
+  background-color: #ffa500;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.middle {
+  flex: 1.5;
+}
+
+footer {
+  height: 8vh;
+  background-color: #f0e68c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
